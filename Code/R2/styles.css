@@ -1,0 +1,48 @@
+.container {
+    margin-top: 30vh;
+    margin-left: 10vw;
+    max-width: 70%;
+}
+
+.hscroll {
+    overflow-x: auto;
+}
+
+.tablewidth {
+    width: 100%;
+    border: 1px gray solid;
+}
+
+.ml {
+    float: right;
+}
+
+th, td {
+    border: 1px gray solid !important;
+    width: 50px !important;
+}
+
+th {
+    text-align: start !important;
+}
+
+.bggray {
+    background-color: rgb(219, 219, 219);
+}
+
+@media (max-width: 1250px) {
+    .container {
+        max-width: 90%;
+        margin-top: 25vh;
+        margin-left: 0vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+    }
+    .ml {
+        display: none;
+    }
+}
