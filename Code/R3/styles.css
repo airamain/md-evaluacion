@@ -10,6 +10,10 @@
     margin-left: auto;
 }
 
+.pointer:hover {
+    cursor: pointer;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;

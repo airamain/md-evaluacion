@@ -1,10 +1,10 @@
 $(document).ready(() => {
     $("#btn-modal").click(() => {
-      $("#modal").show();
+        $("#modal").show();
     });
-    
+
     $("#btn-modal-close").click(() => {
-      $("#modal").hide();
-      $("#player").attr("src", $("#player").attr("src"));
+        $("#modal").hide();
+        $("#player").attr("src", $("#player").attr("src"));
     });
-  });
+});

@@ -1,44 +1,50 @@
 .container {
     max-width: 70%;
-  }
-  
-  .hscroll {
+}
+
+.hscroll {
     overflow-x: auto;
-  }
-  
-  .tablewidth {
+}
+
+.tablewidth {
     width: 100%;
     border: 1px gray solid;
-  
-  }
-  
-  th, td {
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+.ml {
+    margin-top: 5px;
+    float: right;
+}
+
+th, td {
     border: 1px gray solid !important;
-  }
-  
-  th {
+}
+
+th {
     text-align: start !important;
-  }
-  
-  
-  .bggray {
+}
+
+.bggray {
     background-color: rgb(219, 219, 219);
-  }
-  
-  @media (max-width: 1250px) {
+}
+
+@media (max-width: 1250px) {
     .container {
-      max-width: 90%;
+        max-width: 90%;
     }
-  }
-  
-  @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
     .container {
-      max-width: 100%;
+        max-width: 100%;
     }
-  
-  }
-  
-  .new {
+}
+
+.new {
     max-height: 3rem;
     overflow-y: hidden;
-  }
+}
